@@ -5,7 +5,7 @@ A hybrid of Brain-Flak and Stack Cats.
 
 ## How it works
 
-flackcats like Brain-Flak has two stacks and consists of only balanced parentheses.  Like Stack Cats, flakcats programs cannot
+flackcats like Brain-Flak has two stacks and consists of only balanced parentheses.  Like Stack Cats, flakcats programs must
 have a mirror symmetry and are reversable.
 
 ### The Operations
@@ -16,7 +16,7 @@ have a mirror symmetry and are reversable.
 
 - `<>` switches the active stack and evaluates as 0 (*same as Brain-Flak*)
 
-- `{}` swaps the top two values and evaluates as their sum
+- `{}` swaps the top two values and evaluates as zero
 
 - `(...)` pops the top of the current stack evaluates the inside and then pushes the result minus the popped value
 
